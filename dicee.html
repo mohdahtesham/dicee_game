@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Dicee</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Lobster" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <div class="container">
+    <h1 class="First">Player A Score : 0</h1>
+    <h1 class="Second">Player B Score : 0</h1>
+    <!-- <h4 class="Winner">The Winner Is</h4> -->
+
+
+    <div class="dice">
+      <img class="img1" src="./images/dice6.png">
+      <h2 onclick="myfunc()">START</h2>
+      <p>Player A's Turn</p>
+      <h3 class="finish" id="finish">FINISH</h3>
+      
+    </div>
+    <div id="myModal" class="modal">
+      <div class="modal-header">
+        <span class="close">&times;</span>
+        <div class="congo">Congratulations</div>
+      </div>
+      <!-- Modal content -->
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <h4 class="Winner">The winner is</h4>
+        <hr>
+        <div> 
+          <button class="restart" onClick="window.location.reload();">&#x21bb; Restart</button>
+        </div>
+
+      </div>
+      <!-- <div class="modal-footer">
+        <div class="restart" onClick="window.location.reload();"> &#x21bb; Restart</div>
+      </div> -->
+
+    </div>
+    <!-- <div class="dice">
+        <p>Player 2</p>
+        <img class="img2" src="./images/dice6.png">
+      </div> -->
+
+  </div>
+  <script src="index.js">
+
+  </script>
+
+</body>
+
+<footer>
+  Copyright &#169; Mohammed Ahtesham
+</footer>
+
+</html>

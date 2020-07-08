@@ -1,0 +1,130 @@
+.container {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+  }
+  
+  .dice {
+    text-align: center;
+    display: inline-block;
+  
+  }
+  h2{
+    cursor: pointer;
+  }
+  .Winner{
+    display: none;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    }
+  .finish{
+  display: none;
+  cursor: pointer;
+  color: yellow;
+  
+  }
+  .First{
+    float: left;
+  }
+  .Second{
+    float: right;
+  }
+  
+  body {
+    background-color: #393E46;
+  }
+  h2{
+    color: green;
+  }
+  
+  h1 {
+    /* margin: 30px; */
+    font-family: 'Lobster', cursive;
+    text-shadow: 5px 0 #232931;
+    color: #4ECCA3;
+  }
+  
+  p {
+    font-size: 2rem;
+    color: #4ECCA3;
+    font-family: 'Indie Flower', cursive;
+  }
+  h4{
+    font-size: 2rem;
+    color: #4ECCA3;
+    font-family: 'Indie Flower', cursive;
+  }
+  img {
+    width: 30%;
+  }
+  
+  footer {
+      text-align: center;
+      font-size: 12px;
+      background: #393E46;
+      padding: 10px 0px;
+      color: #ffffff;
+      position: fixed;
+      bottom: 0px;
+      z-index: 9;
+      margin-left: 41%;
+    color: #EEEEEE;
+    font-family: 'Times New Roman', Times, serif;
+  
+  }
+  .button {
+    border-radius: 4px;
+    background-color: green;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 25px;
+    padding: 8px;
+    width: 76px;
+    transition: all 0.5s;
+    cursor: pointer;
+    height: 42px;
+    /* margin: 5px; */
+}
+  
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button:hover span {
+    padding-right: 25px;
+  }
+  
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+  input[type=text]{
+    width: 30%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  li.go {
+    margin-top: -50px;
+    margin-left: 358px;
+    list-style: none;
+}
+  
+ 
+  
